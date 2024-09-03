@@ -1,0 +1,192 @@
+
+
+
+.formControl .MuiOutlinedInput-root:hover fieldset {
+    border-color: #a03c64 !important; 
+  }
+  
+  .formControl .Mui-focused fieldset {
+    border-color: #a03c64 !important; 
+    
+  }
+  .MuiButtonBase-root.MuiMenuItem-root.Mui-selected {
+    background-color: #a03c64 !important; 
+    color: white !important;
+  }
+  .MuiButtonBase-root.MuiMenuItem-root:hover {
+    background-color: #a03c64 !important;
+    color: white;
+  }
+  
+  .MuiSvgIcon-root.MuiSelect-icon{
+    fill: white !important; 
+  }
+  /* .MuiButtonBase-root.MuiMenuItem-root.Mui-selected:hover {
+    background-color: #a03c64; 
+    color: white; 
+  } */
+  
+  #domain_button :active,
+  #domain_button:focus{
+    color:white;
+    font-weight: bold;
+    font-size: 21px;
+    border: 1px solid #a03c64;
+  }
+  
+  
+  
+  #domain_button {
+    background-color:#a03c64 ;
+    color:white;
+    font-weight: bold;
+    font-size: 21px;
+    /* width: 140px; */
+    width: 200px;
+    text-align: center;
+    border: 1px solid #a03c64;
+  }
+  .form_input{
+     opacity: 0.85;
+     
+  }
+  .form_input:active,
+  .form_input:focus{
+    border-color: #a03c64 !important;
+    border-radius: 10px !important;
+    box-shadow: 0 0 0 0.2rem rgba(160, 60, 100, 0.25) !important
+  }
+  
+  li {
+    padding: 10px;
+  }
+  
+  li h5 {
+    padding: 10px;
+  }
+  
+  .select-with-spacing {
+    padding: 5px;
+  }
+  .form-check-input:checked[type=radio]{
+    background-color: #a03c64 !important;
+    color: #a03c64 !important;
+    border: 2px solid #a03c64 !important;
+  }
+  
+  .form-check-input[type="radio"]
+   {
+    color: #a03c64 !important;
+    border: 3px solid #a03c64 !important;
+  }
+  
+  .customAccordionButton {
+    font-weight: bold;
+    background-color: #a03c64;
+    color: white;
+  }
+  
+  .accordingCss {
+    padding-left: 50px !important;
+  }
+  
+  .textareaCss {
+    width: 450px !important;
+    outline: none !important;
+  }
+  .textareaCss:focus {
+    border-color: #a03c64 !important;
+    box-shadow: 0 0 0 0.2rem rgba(160, 60, 100, 0.25) !important;
+  }
+  
+  .radioCss {
+    padding-left: 10px !important;
+  }
+  
+  
+  #accor_button,
+  #accor_button::after {
+    color: white; 
+  }
+  
+  
+  
+  #submit_button{
+    background-color:#a03c64 ;
+    color:white;
+    font-weight: bold;
+    font-size: 21px;
+    width: 275px;
+  
+  }
+  #logout{
+    background-color:#a03c64 ;
+    color:white;
+  }
+  .spinner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust the height if necessary */
+  }
+  
+  .custom-spinner {
+    color: #a03c64 !important;
+    font-size: 3em; 
+    width: 2em !important;
+    height: 2em !important; 
+  
+  }
+  
+  #accor_button{
+    font-weight: bold;
+    background-color: #a03c64;
+    color: white;
+    font-size: 21px;
+  }
+  #accor_button:active,
+  #accor_button:focus {
+    box-shadow: none;
+    background-color: #a03c64;
+    color: white;
+    border-color: #a03c64; 
+  }
+  
+  
+  
+  @media (min-width: 320px) and (max-width: 767px) {
+  
+    .questions {
+      font-size: medium;
+    }
+  
+    #droupdownbutton {
+      width: 100%;
+    }
+  
+    .accordingCss {
+      padding-left: 23px !important;
+    }
+  
+    .textareaCss {
+      width: 120px !important;
+      height: 50px;
+    }
+  
+    .radioCss {
+      padding-left: 10px !important;
+    }
+  
+    /* .logintable{
+      width: 80% !important;
+
+    } */
+   
+      
+    #submit_button{
+      width: 115px;
+      font-size: 21px;
+      font-weight: bold;
+    }
+  
+  }
